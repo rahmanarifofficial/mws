@@ -1,0 +1,48 @@
+.container {
+	display: grid;
+	height: 100%;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: auto;
+	grid-gap: 4px
+}
+
+.menu {
+	background: lightblue;
+	grid-column: 1/-1;
+	text-align: center;
+}
+.icon {
+	width: 80px; 
+	position: relative;
+}
+.header {
+	background: lavenderblush;
+	grid-column: 1/-1;
+	text-align: center;
+}
+
+.sidebar {
+	background: lightyellow;
+	grid-column: 1/2;
+}
+
+.foto {
+	grid-column: 1/2;
+}
+.konten {
+	background: lightpink;
+	grid-column: 2/-1;
+	display: grid;
+	grid-gap: 4px;
+}
+
+.subkonten {
+	background: lightyellow;
+	padding: 5px 60px 60px 10px;
+	grid-column: 1/-1;
+}
+
+.footer {
+	background: lightcyan;
+	grid-column: 1/-1;
+}
